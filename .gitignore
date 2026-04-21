@@ -1,25 +1,17 @@
-# OS/IDE
+# OS / IDE
 .DS_Store
 .idea/
 
 # Python
 __pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.so
-.venv/
-venv/
-env/
+*.pyc
 
-# Training artifacts
-output/
-Embedding/
+# data: 不上传图片目录
+data/*/*_photos/
+data/*/*_photos/**
 
-# Dataset and raw assets
-data/
-
-# Logs and caches
-*.log
-*.pt
-*.safetensors
+# output: 只上传每个子目录下的 .pt
+output/**
+!output/
+!output/*/
+!output/*/*.pt
