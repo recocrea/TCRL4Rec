@@ -1,0 +1,25 @@
+# OS/IDE
+.DS_Store
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+env/
+
+# Training artifacts
+output/
+Embedding/
+
+# Dataset and raw assets
+data/
+
+# Logs and caches
+*.log
+*.pt
+*.safetensors
